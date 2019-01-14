@@ -18,9 +18,8 @@ class xmldocker:
 
     def create_if_clear(self):
         with open(self.path, 'w') as xfile:
-            xml_default = open("default_xml.xml", 'r').read()
-            xfile.write(xml_default)
-        return True
+            self.xml_dict = open("default_xml.xml", 'r').read()
+        return xfile.write()
 
     def xml_write(self):
         """write file if was changed"""

@@ -1,5 +1,7 @@
 import unittest
 import document_worker
+from well_worker import Well, ManyOfWell
+from collections import OrderedDict
 
 
 class MyTestCase(unittest.TestCase):
@@ -14,6 +16,15 @@ class MyTestCase(unittest.TestCase):
         s1 = open('default_xml.xml', 'r')
         self.assertEqual(s.read() ,s1.read())
         s.close(), s1.close()
+
+    def testManyWell(self):
+        w = Well()
+        m = ManyOfWell()
+        m.add_well(w)
+        print (m)
+        m.remove_well(w)
+        print (m)
+        # self.assertEqual(m, OrderedDict())
 
 
 
