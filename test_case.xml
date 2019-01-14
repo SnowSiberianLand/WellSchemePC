@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WellSchemeData>
+	<StringOfBase Value=""></StringOfBase>
+	<NameOfProfile Name="" id=""></NameOfProfile>
+    <GeoModel Name="" id=""></GeoModel>
+    <GvkModel Name="" id=""></GvkModel>
+    <Settings>
+        <WellDistanse Value="30."></WellDistanse>
+		<NktWellDistance Value="15."></NktWellDistance>
+        <TitleFont Value="18." Name="Arial" Bold="True"></TitleFont>
+        <WellNameFont Value="18." Name="Arial" Bold="False"></WellNameFont>
+        <StartScale Value="1:1000"></StartScale>
+        <ViewRange TopDepth="950." BottomDepth="1200." Type="Automatic"></ViewRange>
+        <BottomWaterPseudoLayer Value="1150."></BottomWaterPseudoLayer>
+	</Settings>
+	<Tags>
+		<Tag name="Work">
+			<Group Name="All">
+				<Wells>
+                    <Well name="1G">
+                        <WellDrilledMd Value="1600."></WellDrilledMd>
+                        <FalseBottom Value="1600."></FalseBottom>
+                        <Status Code="1"></Status>
+                        <PerfData>
+                            <Complition Top="" Base="" Year="" ShowYear="" Type=""></Complition>
+                            <Complition Top="" Base="" Year="" ShowYear="" Type=""></Complition>
+                        </PerfData>
+                        <InflowIntervals>
+                                <InflowInterval Top="0" Bottom="0" Year="" ShowLabelYear="False"></InflowInterval>
+                                <InflowInterval Top="-1063.3" Bottom="-1066.3" Year="" ShowLabelYear="False"></InflowInterval>
+                        </InflowIntervals>
+                        <CementingQualityIntervals>
+									<CementingQualityInterval Top="1057.7" Bottom="1127.3" CementingQuality="Good"/>
+                        </CementingQualityIntervals>
+                        <CurrentBottomholes>
+                            <CurrentBottomhole Top="1069.8" Year="14"></CurrentBottomhole>
+                        </CurrentBottomholes>
+                        <CementBridges>
+                            <CementBridge Top="-1081.1" Bottom="-1095.3" Year="07" ShowLabel="True"></CementBridge>
+                        </CementBridges>
+                        <SandyArgillaceousPlugs>
+                                <SandyArgillaceousPlug Top="1095.3" Bottom="1127.3"/>
+                                <SandyArgillaceousPlug Top="1069.8" Bottom="1081.1"/>
+                        </SandyArgillaceousPlugs>
+                        <CementedDevices>
+                            <Device Top="" Bottom="" Type="" Year="" ShowYear=""></Device>
+                        </CementedDevices>
+                        <Breaks>
+                            <Break Top="1085" Bottom="1091" Year="" ShowLabel="1" Kind="ProductionString"/>
+						</Breaks>
+                        <ProductionString>
+                            <BottomDepth Value="986.9"></BottomDepth>
+                            <BottomKind Value="Funnel"></BottomKind>
+                            <FilterTopDepth Value="0"></FilterTopDepth>
+                            <InflowFromBehindProductionString Value="0"></InflowFromBehindProductionString>
+                            <IsConcentric Value="0"></IsConcentric>
+                            <OuterDiameter Value="0"></OuterDiameter>
+                            <InnerDiameter Value="0"></InnerDiameter>
+                            <CripplingIntervals></CripplingIntervals>
+                            <PerfWithGas>
+                                <Perf Top="" Base="" Year="" ShowLabel=""></Perf>
+                            </PerfWithGas>
+                        </ProductionString>
+                        <Cuts>
+                            <Cut Top="" Bottom=""></Cut>
+                        </Cuts>
+                        <YearsWithOverhaulWaterEntry></YearsWithOverhaulWaterEntry>
+                        <YearsWithOverhaulWaterEntryPicketUtility></YearsWithOverhaulWaterEntryPicketUtility>
+                        <YearsWithOverhaulClearEntryPicketUtility></YearsWithOverhaulClearEntryPicketUtility>
+                        <YearsWithOverhaulStabilizationOfProducingFormation></YearsWithOverhaulStabilizationOfProducingFormation>
+                        <YearsWithOverhaulWashingAndStabilizationOfProducingFormation></YearsWithOverhaulWashingAndStabilizationOfProducingFormation>
+                    </Well>
+                    <Well  name="1RG">
+                        <WellDrilledMd Value="1800."></WellDrilledMd>
+                        <FalseBottom Value="1800."></FalseBottom>
+                        <Status Code="1"></Status>
+                        <ProductionString></ProductionString>
+                        <PerfData>
+                            <Complition Top="" Base="" Year="" ShowYear="" Type=""></Complition>
+                            <Complition Top="" Base="" Year="" ShowYear="" Type=""></Complition>
+                        </PerfData>
+                        <InflowIntervals>
+                                <InflowInterval Top="0" Bottom="0" Year="" ShowLabelYear="False"></InflowInterval>
+                                <InflowInterval Top="1063.3" Bottom="1066.3" Year="" ShowLabelYear="False"></InflowInterval>
+                        </InflowIntervals>
+                        <CementingQualityIntervals>
+									<CementingQualityInterval Top="1057.7" Bottom="1127.3" CementingQuality="Good"></CementingQualityInterval>
+                        </CementingQualityIntervals>
+                        <CurrentBottomholes>
+                            <CurrentBottomhole Top="1069.8" Year="14"></CurrentBottomhole>
+                        </CurrentBottomholes>
+                        <CementBridges>
+                            <CementBridge Top="-1081.1" Bottom="-1095.3" Year="07" ShowLabel="True"></CementBridge>
+                        </CementBridges>
+                        <SandyArgillaceousPlugs>
+                                <SandyArgillaceousPlug Top="1095.3" Bottom="1127.3"/>
+                                <SandyArgillaceousPlug Top="1069.8" Bottom="1081.1"/>
+                        </SandyArgillaceousPlugs>
+                        <CementedDevices>
+                            <Device Top="" Bottom="" Type="" Year="" ShowYear=""></Device>
+                        </CementedDevices>
+                        <Breaks>
+                            <Break Top="1085" Bottom="1091" Year="" ShowLabel="1" Kind="ProductionString"/>
+						</Breaks>
+                        <ProductionString>
+                            <BottomDepth Value="986.9"></BottomDepth>
+                            <BottomKind Value="Funnel"></BottomKind>
+                            <FilterTopDepth Value="0"></FilterTopDepth>
+                            <InflowFromBehindProductionString Value="0"></InflowFromBehindProductionString>
+                            <IsConcentric Value="0"></IsConcentric>
+                            <OuterDiameter Value="0"></OuterDiameter>
+                            <InnerDiameter Value="0"></InnerDiameter>
+                            <CripplingIntervals></CripplingIntervals>
+                            <PerfWithGas>
+                                <Perf Top="" Base="" Year="" ShowLabel=""></Perf>
+                            </PerfWithGas>
+                        </ProductionString>
+                        <Cuts>
+                            <Cut Top="" Bottom=""></Cut>
+                        </Cuts>
+                        <YearsWithOverhaulWaterEntry></YearsWithOverhaulWaterEntry>
+                        <YearsWithOverhaulWaterEntryPicketUtility></YearsWithOverhaulWaterEntryPicketUtility>
+                        <YearsWithOverhaulClearEntryPicketUtility></YearsWithOverhaulClearEntryPicketUtility>
+                        <YearsWithOverhaulStabilizationOfProducingFormation></YearsWithOverhaulStabilizationOfProducingFormation>
+                        <YearsWithOverhaulWashingAndStabilizationOfProducingFormation></YearsWithOverhaulWashingAndStabilizationOfProducingFormation>
+                    </Well>
+				</Wells>
+			</Group>
+			<Reservoirs>
+			</Reservoirs>
+			<Years>
+			</Years>
+		</Tag>
+	</Tags>
+</WellSchemeData>
